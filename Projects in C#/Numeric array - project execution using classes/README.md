@@ -8,7 +8,7 @@
 
 **Главная**
 
-<img src="https://github.com/BernikovaLera/Numeric-array---project-execution-using-classes/blob/main/Numeric%20array%20-%20project%20execution%20using%20classes/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Numeric%20array%20-%20project%20execution%20using%20classes/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
 
 
 
