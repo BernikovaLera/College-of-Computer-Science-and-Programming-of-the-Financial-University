@@ -63,7 +63,6 @@ namespace pr_up4
             OperationForClass delSum = math.Sum;
             int resultSum = delSum(10, 100);
             Console.WriteLine("\t Результат: " + resultSum);  
-
             Console.Read();
         }
         private static void GoodMorning()
