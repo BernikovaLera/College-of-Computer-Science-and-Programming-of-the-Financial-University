@@ -8,15 +8,15 @@
 
 **Метод Contains**
 
-<img src="https://github.com/BernikovaLera/Working-with-the-System.String-class/blob/main/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
 
 **Метод Concat**
 
-<img src="https://github.com/BernikovaLera/Working-with-the-System.String-class/blob/main/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png" width="500" height="300" >
 
 **Метод IndexOf**
 
-<img src="https://github.com/BernikovaLera/Working-with-the-System.String-class/blob/main/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA4.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20the%20System.String%20class/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png" width="500" height="300" >
 
 
 --------
