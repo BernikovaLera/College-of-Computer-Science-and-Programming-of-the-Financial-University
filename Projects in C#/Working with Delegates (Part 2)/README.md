@@ -1,4 +1,4 @@
-# Работа с делегатами (часть 1)
+# Работа с делегатами (часть 2)
 -------
 **Цель работы:** Изучить теоретический материал и выполнить консольный проект, демонстрирующий работу с делегатами.
 
@@ -6,87 +6,85 @@
 
 Ниже на рисунках представлены фрагменты проекта
 
-<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20Delegates%20(Part%201)/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20Delegates%20(Part%202)/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
 
 Часть программного кода:
 
     using System;
-    namespace pr_up4
+    namespace up_pr5
     {
-        class Math
+        class First
         {
-            public int Sum(int x, int y) { return x + y; }
+            public static string str { get; set; }
+            public static void fun1()
+            {
+                Console.WriteLine("Берникова 3ПКС-118");
+                Console.WriteLine("Практическая работа №5\n");
+                Console.WriteLine("В простанстве имен Му создаются 2 класса - First и Second.");
+                Console.WriteLine("В классе First");
+                Console.WriteLine("\t 1. создается закрытое поле str. Показан пример передачи значения закрытому полю.");
+                Console.WriteLine("\t 2. создаются 5 функций для их дальнейшей привязки к делегату.");
+                Console.WriteLine("В классе Second");
+                Console.WriteLine("\t 1. рассмотрены различные способы добавления методов в делегат.\n");
+                str = "###########1";
+                Console.WriteLine("Работает fun1:");
+            }
+            public static void fun2()
+            {
+                str = "************2";
+                Console.WriteLine("Работает fun2:");
+            }
+            public static void fun3()
+            {
+                str = "*************23";
+                Console.WriteLine("Работает fun3:");
+            }
         }
-        class Program
+        class Second
         {
-            delegate int Operation(int x, int y);
-            delegate int OperationForClass(int x, int y);
-            delegate void Message(); 
+            public static void fun4()
+            {
+                Console.WriteLine("Работает статестическая функция");
+                Console.WriteLine("\n");
+                First.str = "~~~~~~~~~~~~~~~4";
+                Console.WriteLine("Работает fun5 класса Second:");
+            }
+            public static void fun5()
+            {
+                First.str = "~~~~~~~~~~~~~~~51";
+                Console.WriteLine("Работает fun6:");
+            }
+        }
+        class Rechenie
+        {
+            delegate void Report();
             static void Main(string[] args)
             {
-                // делегата Message()
-                Console.WriteLine("\t\t 1. Создание делегата и добавление в него метода, в зависимости от времени суток:");
-                Message mes; 
-                if (DateTime.Now.Hour < 12) {
-                    mes = GoodMorning; }
-                else {
-                    mes = GoodEvening; }
-                mes();
-                Console.WriteLine("\n");
-                // делегата Перопределение делегата: делегат указывает на метод Add
-                Console.WriteLine("\t\t 2. Перопределение делегата:");
-                Console.WriteLine("\t\t делегат указывает на метод Add");
-                Console.WriteLine("Operation del = Add;");
-                Console.WriteLine("int result = del(4, 5);");
-                Console.WriteLine("Console.WriteLine(Результат:  + result);");
-                Operation del = Add; 
-                int result = del(4, 5); 
-                Console.WriteLine("\t Результат: " + result);
-                Console.WriteLine("\n");
-                // делегата Переопределение делегата: делегат указывает на метод Multiply
-                Console.WriteLine("\t\t делегат указывает на метод Multiply");
-                Console.WriteLine("del = Multiply;");
-                Console.WriteLine("result = del(4, 5);");
-                Console.WriteLine("Console.WriteLine(Результат:  + result);");
-                del = Multiply; 
-                result = del(4, 5);
-                Console.WriteLine("\t Результат: " + result);
-                Console.WriteLine("\n");
-                // Присвоение делегату метода из другого класса: делегату присваивается метод Sum из класса Math
-                Console.WriteLine("\t\t 3. Присвоение делигату метода из другого класса:");
-                Console.WriteLine("\t\t делегату присваивается метод Sum из класса Math");
-                Console.WriteLine("Math math = new Math();");
-                Console.WriteLine("OperationForClass delSum = math.Sum;");
-                Console.WriteLine("int resultSum = delSum(10, 100);");
-                Console.WriteLine("Console.WriteLine(Результат:  + resultSum);");
-                Math math = new Math();
-                OperationForClass delSum = math.Sum;
-                int resultSum = delSum(10, 100);
-                Console.WriteLine("\t Результат: " + resultSum);  
-                Console.Read();
+                Report del;
+                del = First.fun1;
+                del += ReportD;
+                del();
+                del = First.fun2;
+                del += ReportD;
+                del();
+                del = First.fun3;
+                del += ReportD;
+                del();
+                del = Second.fun4;
+                del += ReportD;
+                del();
+                del = Second.fun5;
+                del += ReportD;
+                del();
+                Console.ReadKey();
             }
-            private static void GoodMorning()
+            public static void ReportD()
             {
-                Console.WriteLine("Good Morning");
-            }
-            private static void GoodEvening()
-            {
-                Console.WriteLine("Good Evening");
-            }
-            private static int Add(int x, int y)
-            {
-                return x + y;
-            }
-            private static int Multiply(int x, int y)
-            {
-                return x * y;
-            }
-            private static int delSum(int x, int y)
-            {
-                return x + y;
+                Console.WriteLine("Работает функция Report. Значение str: " + First.str);
             }
         }
     }
+
 
 
 --------
