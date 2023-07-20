@@ -7,7 +7,7 @@
 Ниже на рисунках представлены фрагменты проекта
 
 
-<img src="" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/Working%20with%20MS%20Office%20in%20WPF_3/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png" width="500" height="300" >
 
 
 
