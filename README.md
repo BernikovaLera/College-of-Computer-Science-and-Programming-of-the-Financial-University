@@ -14,3 +14,4 @@
 + [Working with MS Office in WPF_2](https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/tree/main/Projects%20in%20C%23/Working%20with%20MS%20Office%20in%20WPF_2)
 + [Working with MS Office in WPF_3](https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/tree/main/Projects%20in%20C%23/Working%20with%20MS%20Office%20in%20WPF_3)
 + [Working with files with different encodings]()
+ 
