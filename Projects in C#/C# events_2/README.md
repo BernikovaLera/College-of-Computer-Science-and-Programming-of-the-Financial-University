@@ -8,9 +8,9 @@
 
 **Главная**
 
-<img src="https://github.com/BernikovaLera/calculator/blob/main/C%23%20events_2/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/C%23%20events_2/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png" width="500" height="300" >
 
-<img src="https://github.com/BernikovaLera/calculator/blob/main/C%23%20events_2/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png" width="500" height="300" >
+<img src="https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/Projects%20in%20C%23/C%23%20events_2/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png" width="500" height="300" >
 
 --------
 public MainWindow()
