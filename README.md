@@ -1,5 +1,5 @@
 # College-of-Computer-Science-and-Programming-of-the-Financial-University
- 
+  
 [Отчет о прохождении учебной практики по профессиональному модулю ПМ.01 Разработка программных модулей для программного обеспечения для компьютерных систем по специальности 09.02.03 Программирование в компьютерных системах](https://github.com/BernikovaLera/College-of-Computer-Science-and-Programming-of-the-Financial-University/blob/main/%D0%A3%D0%9F%D0%9F%D0%A0%20%D0%9E%D0%B1%D1%89%D0%B8%D0%B9%20%D0%BE%D1%82%D1%87%D0%B5%D1%82.pdf)
 
 Проекты:
